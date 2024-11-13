@@ -1,6 +1,6 @@
 # jruiz
 Pagina de uso estudiantil 
-_Este proyecto empezó de cero con la idea de crear una página que permita resumir el mundo cripto y descubrir nuevos proyectos desde una perspectiva más casual.
+_Este proyecto empezó de cero con la idea de crear una página que permita resumir el mundo cripto y descubrir nuevos proyectos desde una perspectiva más casual. <br>
 _Por el momento, solo he hecho responsiva la página de contactos, pero falta aplicar ese concepto al resto del proyecto
 _Falta diseñar las tarjetas para el carrito y, si es posible, crear una barra de navegación adaptada según el dispositivo
 _La sección de “merch” la agregué para poder implementar las cards, y es donde voy a usar JS
