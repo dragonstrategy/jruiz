@@ -1,0 +1,166 @@
+body{
+    margin: 0px;
+    color: #32c0c1;
+    background-color: #100f0f;
+    font-family: roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#titulo_alternativo{
+    display: none;
+}
+
+.navegacion-horizontal{
+    border-top: 1px solid  #32c0c1;
+    border-bottom: 1px solid #32c0c1;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+.navegacion-horizontal li {
+margin: 0;
+padding: 0;
+}
+
+.navegacion-horizontal li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #32c0c1;
+}
+
+.navegacion-horizontal a:hover{
+    background-color: aqua;
+    color: #100f0f;
+}
+
+
+main{
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272626;
+}
+
+.container{
+    display: flex;
+    max-width:1200px;
+    display: flex;
+
+}
+
+.col{
+    margin-left: 30px;
+}
+
+.test{
+    width: 600px;
+}
+
+.btc {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.eth{
+    margin-bottom: 30px;
+}
+
+section{
+    margin-top: 60px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+#h2-altcoins{
+    border-bottom: 3px solid #32c0c1;
+    border-top: 3px solid #32c0c1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.icono-alcoins:hover{
+    filter: brightness(0) saturate(100%) invert(24%) sepia(94%) saturate(1720%) hue-rotate(203deg) brightness(98%) contrast(101%);
+}
+
+.grafico-btc{
+    width: 850px;
+    height: 700px;
+}
+
+.c-altcoins{
+    justify-content: center;
+    align-items: center;
+}
+
+#h2-altcoins-panel{
+    border-bottom: 3px solid #f53098;
+    border-top: 3px solid #f53098;
+    color: #f53098;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.icono-alcoins-panel:hover{
+filter: brightness(0) saturate(100%) invert(31%) sepia(35%) saturate(4671%) hue-rotate(309deg) brightness(98%) contrast(97%);
+}
+
+.redes{
+width: 55px;
+filter: brightness(0) saturate(100%) invert(31%) sepia(35%) saturate(4671%) hue-rotate(309deg) brightness(98%) contrast(97%);
+}
+
+.formulario{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+}
+
+@media (max-width: 650px)
+
+{
+
+    #pagina_contacto{
+
+        .navegacion-horizontal li{
+            display: none;
+    
+        }
+    
+        .navegacion-horizontal li:first-child{
+            display: inline;
+        }
+    
+        
+        #titulo_alternativo{
+            display: block;
+            color: #32c0c1;
+            text-align: center;
+        }
+    
+        header img{
+            display: none;
+        }
+    
+    }
+
+
+
+}
