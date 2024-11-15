@@ -133,33 +133,28 @@ filter: brightness(0) saturate(100%) invert(31%) sepia(35%) saturate(4671%) hue-
         gap: 10px;
 }
 
-@media (max-width: 650px)
-
-{
-
-    #pagina_contacto{
-
-        .navegacion-horizontal li{
-            display: none;
-    
-        }
-    
-        .navegacion-horizontal li:first-child{
-            display: inline;
-        }
-    
-        
-        #titulo_alternativo{
-            display: block;
-            color: #32c0c1;
-            text-align: center;
-        }
-    
-        header img{
-            display: none;
-        }
-    
+@media (max-width: 650px) {
+    /* Ocultar todos los elementos de la lista menos el primero */
+    #pagina_contacto .navegacion-horizontal li {
+        display: none;
     }
+    #pagina_contacto .navegacion-horizontal li:first-child {
+        display: inline;
+    }
+
+    /* Mostrar título alternativo */
+    #pagina_contacto #titulo_alternativo {
+        display: block;
+        color: #32c0c1;
+        text-align: center;
+    }
+
+    /* Ocultar imágenes en el header */
+    #pagina_contacto header img {
+        display: none;
+    }
+}
+
 
 
 
