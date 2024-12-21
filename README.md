@@ -1,5 +1,5 @@
 _Este proyecto empezó de cero con la idea de crear una página que permita resumir el mundo cripto y descubrir nuevos proyectos desde una perspectiva más casual. <br>
-_ En la pagina index.html esta implementada la consulta a la api en la seccion "monedas en tendencia"<br>
+_ En la pagina index esta implementada la consulta a la api en la seccion "monedas en tendencia"<br>
 _ En la pagina index esta implementado el navbar responsivo utilizando bootstrap<br>
 _ En la pagina contactos esta implementado por medio de js el control de carga de los inputs<br>
 _ En la pagina Merch estan las cards que se implementan con html dinamico usando js, y tambien esta implementado un carrito de compras que usa local sorage<br>
