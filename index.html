@@ -2,30 +2,35 @@
 <html lang="es">
 <head>
     <title>Cripto resumen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 </head>
 <body>
     
 <header>
-     <img src="nafrati.png" alt="mi presentacion" width="100%" >
+     <img src="imagenes/CriptoResumen.png" alt="mi presentacion" width="100%" >
+     <h1 id="titulo_alternativo">CRIPTO RESUMEN</h1>
 </header>     
 
-<nav>
-    <ul class="navegacion-horizontal">
-        <li class="navegar"><a href="bitcoin.html">Bitcoin</a></li>
-        <li><a href="ethereum.html">Ethereum</a></li>
-        <li><a href="altcoins.html">Altcoins</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-        <li><a href="merch.html">Chusmea nuestro merch</a></li>
-    </ul>
-</nav>
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navegacion-horizontal navbar-nav">
+          <li class="nav-item"><a href="bitcoin.html" class="nav-link">Bitcoin</a></li>
+          <li class="nav-item"><a href="ethereum.html" class="nav-link">Ethereum</a></li>
+          <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+          <li class="nav-item"><a href="merch.html" class="nav-link">Chusmea nuestro merch</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 <main>
-
     <div class="container btc">
 
                 
@@ -73,8 +78,14 @@
     <a href="https://app.uniswap.org/" class="icono-alcoins" target="_blank"> <img src="imagenes/uni.png" alt="icono-alcoins"></a>
 </section>
 
+<h2 class="monedas-tendencia">Monedas en tendencia 🔥</h2>
+<section id="contenedorMonedas"></section>
+
 
 </main>
+
+<div class="espacio"></div>
+
 
 <footer>
     <h3>
@@ -83,7 +94,10 @@
         <a href="https://ar.linkedin.com/" target="_blank"><img class="redes" src="imagenes/social.png" alt=""></a>
     </h3>
 </footer>
- 
+
+<script src="js/api.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
+
