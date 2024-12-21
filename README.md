@@ -4,5 +4,5 @@ _ En la pagina index esta implementado el navbar responsivo utilizando bootstrap
 _ En la pagina contactos esta implementado por medio de js el control de carga de los inputs<br>
 _ En la pagina Merch estan las las cards que se implementan con html dinamico usando js, y tambien esta implementado un carrito de compras que usa local sorage<br>
 _ Gracias por todo el trabajo que le metieron al curso, fue excelente<br>
-_ Me hubiese gustado tener mas tiempo para darle al proyecto pero en el verano le seguiremos dando forma
+_ Me hubiese gustado tener mas tiempo para darle al proyecto pero en el verano le seguiremos dando forma<br>
 _ Saludos y gracias por todo!
